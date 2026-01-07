@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import sha1 from 'sha1';
-import redisClient from '../utils/redis';
+import redisClient from '../utils/redis.mjs';
 import dbClient from '../utils/db';
 import getIdAndKey from '../utils/users';
 
